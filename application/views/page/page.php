@@ -29,7 +29,7 @@
                     </div>
                 <?php elseif(empty($next) && !empty($back)):?>
                     <div class="col-12 d-flex justify-content-start">
-                        <a href="<?= $next?>" class="btn btn-success btn-sm"><i class="fa fa-arrow-right"></i></a>
+                        <a href="<?= $back?>" class="btn btn-success btn-sm"><i class="fa fa-arrow-left"></i></a>
                     </div>
                 <?php endif;?>
             </div>
